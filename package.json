@@ -1,0 +1,54 @@
+{
+  "name": "gdpr-education-audit-tool",
+  "version": "1.0.0",
+  "description": "GDPR Compliance Audit Tool for Educational Institutions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "keywords": ["gdpr", "education", "compliance", "audit"],
+  "author": "GDPR Education Audit Team",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.10.0",
+    "joi": "^17.10.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.0.0",
+    "compression": "^1.7.4",
+    "express-rate-limit": "^6.10.0",
+    "@google-cloud/documentai": "^7.1.0",
+    "@google-cloud/language": "^5.2.1",
+    "@google-cloud/vision": "^3.2.4",
+    "googleapis": "^126.0.1",
+    "@pinecone-database/pinecone": "^1.1.0",
+    "openai": "^4.20.0",
+    "@langchain/core": "^0.1.0",
+    "@langchain/openai": "^0.0.10",
+    "@langchain/pinecone": "^0.0.1",
+    "pdf-parse": "^1.1.1",
+    "mammoth": "^1.6.0",
+    "natural": "^6.7.0",
+    "compromise": "^14.10.0",
+    "node-cron": "^3.0.2",
+    "bull": "^4.11.3",
+    "redis": "^4.6.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.6.4",
+    "supertest": "^6.3.3",
+    "eslint": "^8.48.0",
+    "@types/jest": "^29.5.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
